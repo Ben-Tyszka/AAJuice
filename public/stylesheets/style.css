@@ -1,0 +1,462 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+#title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 4em;
+}
+p{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+#page1{
+    background-color: #902010;
+    z-index: 10;
+}
+body, html, .page{
+  height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black; /* in case the video doesn't fit the whole page*/
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover; /*cover video background */
+    z-index:3;
+}
+.section{
+    text-align:center;
+    overflow: hidden;
+}
+#section0{
+    overflow: hidden;
+}
+#section0 .layer{
+     position: absolute;
+     z-index: 4;
+     width: 100%;
+     left: 0;
+     top: 3.5%;
+     font-weight: 300;
+
+}
+#section3 .layer{
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    left: 50%;
+    top: 90%;
+    font-weight: 300;
+}
+@media screen and (min-width: 550px) {
+
+    #titleh1 {
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 7em;
+        font-weight: 100;
+        color: #000;
+        animation-duration: 1.2s;
+        animation-name: slidein;
+
+    }
+
+    #descs1 {
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 1.4em;
+        color: #000;
+        animation-duration: 2.78s;
+        animation-name: slidedown;
+    }
+
+    #startimg {
+        height: 496px;
+        width: 520px;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 70%;
+            width: 200%
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    @keyframes slidedown {
+        from {
+            margin-top: 60%;
+            width: 300%
+        }
+
+        to {
+            margin-top: 0%;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 549px) and (min-width: 401px){
+    #titleh1 {
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 5em;
+        font-weight: 100;
+        color: #000;
+        animation-duration: 1.2s;
+        animation-name: slidein;
+
+    }
+
+    #descs1 {
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 1.3em;
+        color: #000;
+        animation-duration: 2.78s;
+        animation-name: slidedown;
+    }
+
+    #startimg {
+        height: 396px;
+        width: 420px;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 70%;
+            width: 200%
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    @keyframes slidedown {
+        from {
+            margin-top: 60%;
+            width: 300%
+        }
+
+        to {
+            margin-top: 0%;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    #titleh1 {
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 4em;
+        color: #000;
+        font-weight: 100;
+        animation-duration: 1.2s;
+        animation-name: slidein;
+
+    }
+
+    #descs1 {
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 0.8em;
+        color: #000;
+        animation-duration: 2.78s;
+        animation-name: slidedown;
+    }
+
+    #startimg {
+        height: 296px;
+        width: 320px;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 60%;
+            width: 200%
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    @keyframes slidein_mod {
+        from {
+            margin-left: 70%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    @keyframes slidedown {
+        from {
+            margin-top: 60%;
+            width: 300%
+        }
+
+        to {
+            margin-top: 0%;
+            width: 100%;
+        }
+    }
+}
+#descriptor{
+    position: absolute;
+    top:1.5%;
+    text-align: center;
+    left: 0.5%;
+}
+@media screen and (min-width: 920px){
+    h6{
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-weight: 100;
+        font-size: 3em;
+        color: #000;
+    }
+    ul{
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 3em;
+        color: #000;
+    }
+}
+@media screen and (max-width: 919px) {
+    h6{
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 2.5em;
+        color: #000;
+        font-weight: 100;
+    }
+    ul{
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 2.5em;
+        color: #000;
+    }
+}
+@media screen and (max-width: 585px) {
+    h6{
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 2em;
+        color: #000;
+        font-weight: 100;
+    }
+    ul{
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 2em;
+        color: #000;
+    }
+}
+@media screen and (max-width: 295px) {
+    h6{
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 1.8em;
+        color: #000;
+        font-weight: 100;
+    }
+    ul{
+        font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 1.5em;
+        color: #000;
+    }
+}
+@media screen and (min-width:610px){
+    #title2{
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 6em;
+        font-weight: 100;
+        color: black;
+    }
+    #section1{
+        background-image: url("/images/korean_congress.jpg");
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+}
+@media screen and (max-width:609px){
+    #title2{
+        font-family: "Roboto", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 4em;
+        font-weight: 100;
+        color: black;
+    }
+    #section1{
+        background-image: url("/images/korean_congress.jpg");
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+}
+@keyframes slideinright {
+    from {
+        margin-right: 100%;
+        width: 200%
+    }
+
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 395px) {
+
+    h6 {
+        font-size: 1.5em;
+    }
+    #applePile{
+        width: 267px;
+        height: 180px;
+    }
+    #descriptor{
+        position: relative;
+        top:1.5%;
+        text-align: center;
+        left: 0.0%;
+    }
+}
+#price{
+    font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 300;
+}
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #fff;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border-radius: 0;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: -1;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+    color: #FFF;
+    text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+    height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #fff;
+    font-size:14px;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+    border: 2px solid #D24D57;
+}
+a.animated-button.victoria-one:after {
+    background: #D24D57;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+#section4{
+    font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 300;
+    background-image: url("/images/north-korea-rally1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#titleh3{
+}
+#descsmall1{
+    font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+#la{
+    background-color: rgba(0, 133, 144, 0.75);
+    width: 50%;
+    position: absolute;
+    left:25%;
+    top:25%;
+}
+@keyframes slideinright_mod {
+    from {
+        left:200%;
+
+    }
+
+    to {
+        left:25%;
+    }
+}
+#moveSec{
+    position: absolute;
+    top:10%;
+    text-align: center;
+    width:100%;
+
+}
+#us{
+    position: absolute;
+    top:90%;
+    text-align: center;
+    width:100%;
+}
+#deca{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
