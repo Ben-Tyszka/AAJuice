@@ -1,2 +1,2 @@
 # AAJuice
-A node.js site for my business class.
+A Node.js powered site for my business class.
